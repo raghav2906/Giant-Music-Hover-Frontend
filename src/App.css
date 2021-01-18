@@ -1,4 +1,80 @@
-.App {
+body{
+  margin :0;
+  padding:  0;
+  background-image: linear-gradient(90deg,rgb(220, 217, 221),rgb(224, 218, 224),rgb(229, 217, 230));
+}
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.nav-wrapper{
+  font-family: 'Grand Hotel', cursive;
+
+}
+.LeftScroll{
+  width: 20%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  max-height: 55%;
+}
+.LeftHiddenWala{
+  overflow: hidden;
+}
+.card img{
+  padding-top: 5%;
+  padding-left: 5%;
+  width: 70% !important;
+  height: 70% !important;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.card{
+  text-align: center;
+}
+.album-card{
+  margin: 20px;
+  width:250px !important;
+  height: 250px !important;
+  overflow: hidden;
+}
+.artist-card{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.HomeMain{
+  /* position: relative; */
+  margin:0;
+
+}
+.HomeDiv{
+  background-color: rgba(250,250,250,.5);
+  position: relative;
+  margin: auto;
+  width: 60%;
+  padding: 4rem 3rem;
+  border: none;
+  margin-top: 5%;
+  text-align: center;
+}
+.mycard{
+  margin-top: 7%;
+}
+.card{
+  text-align: center;
+}
+.auth-card{
+  margin: auto;
+  text-align: center ;
+  max-width: 400px;
+  padding: 10px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +111,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
